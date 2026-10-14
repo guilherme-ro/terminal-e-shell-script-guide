@@ -96,7 +96,7 @@ echo "Meu nome é $NOME e tenho $IDADE anos."
 
 NOTA=8
 
-خیصif [ $NOTA -ge 7 ]; then
+if [ $NOTA -ge 7 ]; then
     echo "Aprovado!"
 elif [ $NOTA -ge 5 ]; then
     echo "Recuperação."
